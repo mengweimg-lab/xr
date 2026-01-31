@@ -4,6 +4,11 @@ htmlに全てを埋め込む形を取ってください。 -->
 
 <!-- 現在のhtmlをつかってar.jsでhiroマーカーを活用したデモコンテンツに変更したい。先ほどと同じルールで生成してください。 -->
 
+<!-- a-boxを自分で用意した名刺サイズの画像に置き換えたい。画像に置き換えるためのソースコードの変更と、カードに画像を意図した位置にうまく表示させる調整を手伝って。用意する画像の名前は、card.pngとする。imgフォルダの中で管理している。まずは、画像の位置は気にせず、a-boxを画像に変更するソースコードから、作成して。-->
+
+
+
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -19,7 +24,7 @@ htmlに全てを埋め込む形を取ってください。 -->
 
       <a-marker preset="hiro">
         
-        <a-box position="0 0.5 0" rotation="0 45 0" color="tomato"></a-box>
+        <a-image src="img/card.png" position="0 0.5 0" rotation="-90 0 0"></a-image>
         
       </a-marker>
       
